@@ -1,8 +1,9 @@
-from libqtile.utils import guess_terminal
 import os
 
+from libqtile.utils import guess_terminal
+
 mod = "mod4"
-terminal = "kitty" or guess_terminal()
+terminal = "wezterm" or guess_terminal()
 browser_cmd = "firefox --ProfileManager"
 home = os.path.expanduser("~")
 rofi_app_cmd = home + "/.config/rofi/scripts/appsmenu.sh"
