@@ -1,10 +1,10 @@
-from keybindings import keybindings
-from layouts import layouts_enabled
-from layouts import floating_layout as flayout
-from libqtile.config import Screen
-from bar import bar
-from mouse import mouse as mouse_layout
 import constants as consts
+from bar import bar
+from keybindings import keybindings
+from layouts import floating_layout as flayout
+from layouts import layouts_enabled
+from libqtile.config import Match, Rule, Screen
+from mouse import mouse as mouse_layout
 
 # keybindings
 keys = keybindings

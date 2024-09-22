@@ -236,5 +236,5 @@ bar = bar.Bar(
     30,
     border_color=consts.colors("bg"),
     border_width=[0, 0, 0, 0],
-    margin=[15, 60, 6, 60],
+    margin=[15, 9, 6, 9],
 )

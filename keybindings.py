@@ -1,8 +1,7 @@
+import constants as consts
 from libqtile import qtile
 from libqtile.config import Group, Key
 from libqtile.lazy import lazy
-
-import constants as consts
 
 keybindings = [
     # reloading qtile
